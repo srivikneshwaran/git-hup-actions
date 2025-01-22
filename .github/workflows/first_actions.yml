@@ -5,6 +5,6 @@ jobs:
     runs-on: Ubuntu-24.04
     steps:
       - name: Print greetings
-        run: "HELLO WORLD!"
+        run: echo "HELLO WORLD!"
       - name: Print goodbye
         run: echo "Done -bye!"
