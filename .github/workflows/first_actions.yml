@@ -2,7 +2,7 @@ name: First workflow
 on: workflow_dispatch
 jobs: 
   first-job:
-    runs-on: Ubuntu 24.04
+    runs-on: Ubuntu-24.04
     steps:
       - name: Print greetings
         run: "HELLO WORLD!"
